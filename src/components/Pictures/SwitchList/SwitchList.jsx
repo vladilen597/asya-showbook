@@ -4,20 +4,14 @@ import { ReactComponent as ArrowRight } from './images/arrow-right.svg'
 
 import './SwitchList.scss'
 
-const SwitchList = ({ setAlbum }) => {
+const SwitchList = ({ setNextAlbum, setPreviousAlbum }) => {
   return (
     <div className='switch-list'>
-      <button
-        onClick={() => setAlbum('compaining')}
-        className='switch-list__button'
-      >
+      <button onClick={setPreviousAlbum} className='switch-list__button'>
         <ArrowLeft />
         Предыдущее
       </button>
-      <button
-        onClick={() => setAlbum('editorial')}
-        className='switch-list__button'
-      >
+      <button onClick={setNextAlbum} className='switch-list__button'>
         Следующее
         <ArrowRight />
       </button>

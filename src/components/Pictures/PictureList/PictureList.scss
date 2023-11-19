@@ -1,0 +1,99 @@
+.picture-list {
+  display: grid;
+  grid-template-columns: repeat(3, 446px);
+  gap: 30px;
+  grid-template-areas:
+    'first second third'
+    'forth fifth sixth'
+    'seventh seventh sixth'
+    'seventh seventh eigth';
+  .picture-list__image {
+    width: 100%;
+    object-fit: cover;
+    .picture-list__first {
+      grid-area: first;
+    }
+    &.picture-list__second {
+      grid-area: second;
+    }
+    &.picture-list__third {
+      grid-area: third;
+    }
+    &.picture-list__forth {
+      grid-area: forth;
+    }
+    &.picture-list__fifth {
+      grid-area: fifth;
+    }
+    &.picture-list__sixth {
+      grid-area: sixth;
+      height: 100%;
+    }
+    &.picture-list__seventh {
+      display: inline-block;
+      grid-area: seventh;
+    }
+    &.picture-list__eigth {
+      grid-area: eigth;
+    }
+  }
+}
+
+.picture-list-compaining {
+  display: grid;
+  grid-template-columns: repeat(3, 446px);
+  gap: 30px;
+  grid-template-areas:
+    'first second third'
+    'forth fifth blank';
+  .picture-list__image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .picture-list-compaining__first {
+    grid-area: first;
+  }
+  .picture-list-compaining__second {
+    border: 1px solid #dbdbdb;
+    grid-area: second;
+  }
+  .picture-list-compaining__third {
+    grid-area: third;
+  }
+  .picture-list-compaining__forth {
+    border: 1px solid #dbdbdb;
+    grid-area: forth;
+  }
+  .picture-list-compaining__fifth {
+    border: 1px solid #dbdbdb;
+    grid-area: fifth;
+  }
+}
+
+.picture-list-lookbook {
+  display: grid;
+  grid-template-columns: repeat(3, 446px);
+  gap: 30px;
+  grid-template-areas:
+    'first second forth'
+    'third blank forth';
+  .picture-list__image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .picture-list-lookbook__first {
+    grid-area: first;
+  }
+  .picture-list-lookbook__second {
+    border: 1px solid #dbdbdb;
+    grid-area: second;
+  }
+  .picture-list-lookbook__third {
+    grid-area: third;
+  }
+  .picture-list-lookbook__forth {
+    grid-area: forth;
+  }
+}

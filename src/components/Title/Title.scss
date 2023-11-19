@@ -1,0 +1,17 @@
+.title {
+  margin-top: 140px;
+  color: #f3f3f3;
+  font-family: 'Baskerville Old Face';
+  font-size: 140px;
+  font-weight: 400;
+  line-height: 88.5%;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  .title__top {
+    text-align: left;
+  }
+  .title__bottom {
+    margin-top: 70px;
+    text-align: right;
+  }
+}

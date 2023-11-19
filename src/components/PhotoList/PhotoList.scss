@@ -1,0 +1,12 @@
+.photo-list {
+  display: flex;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  .photo-list__item {
+    width: 25%;
+    .photo-list__image {
+      width: 100%;
+    }
+  }
+}

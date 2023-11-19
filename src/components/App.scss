@@ -1,0 +1,47 @@
+.app {
+  .app__header-wrapper {
+    background-color: #1d1d1d;
+  }
+  .app__image-background {
+    margin: 0 auto;
+    background-image: url('./images/header-photo.png');
+    background-position-x: center;
+    max-width: 1920px;
+    background-color: #1d1d1d;
+  }
+  .app__content {
+    max-width: 1400px;
+    margin: 0 auto;
+    &.app__content-top {
+      padding-bottom: 150px;
+      .app__subtitle {
+        margin-top: 133px;
+        color: #fff;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 88.5%; /* 53.1px */
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .app__pictures {
+  }
+  .app__price-block {
+    background-color: #1d1d1d;
+  }
+  .app__photo-list-wrapper {
+    margin-top: 150px;
+  }
+  .app__price-block2-wrapper {
+    margin-top: 200px;
+  }
+  .app__photo-list2-wrapper {
+    margin-top: 150px;
+  }
+  .app__footer-wrapper {
+    margin-top: 200px;
+  }
+}

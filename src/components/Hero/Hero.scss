@@ -1,0 +1,25 @@
+.hero {
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  justify-content: flex-end;
+  .hero__image {
+    max-width: 387px;
+  }
+  .hero__description {
+    max-width: 574px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0.6px;
+    .hero__paragraph {
+      margin-top: 50px;
+      &.hero__paragraph-first {
+        max-width: 436px;
+      }
+    }
+  }
+}

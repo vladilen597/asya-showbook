@@ -1,0 +1,29 @@
+.switch-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .switch-list__button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 30px;
+    background: none;
+    border: none;
+    color: #1d1d1d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88.5%;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    &:hover {
+      color: #e37099;
+      svg {
+        * {
+          fill: #e37099;
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/asya-showbook/static/css/main.63b22e52.css",
+    "main.css": "/asya-showbook/static/css/main.e2e43757.css",
     "main.js": "/asya-showbook/static/js/main.e909b8c3.js",
     "static/media/picture2.png": "/asya-showbook/static/media/picture2.d7dbb79d99a0ae1595df.png",
     "static/media/picture3.jpg": "/asya-showbook/static/media/picture3.4879d678663dd509c1d8.jpg",
@@ -27,11 +27,11 @@
     "index.html": "/asya-showbook/index.html",
     "static/media/arrow-left.svg": "/asya-showbook/static/media/arrow-left.11fde279429f7cf5a9acd7994ea92618.svg",
     "static/media/arrow-right.svg": "/asya-showbook/static/media/arrow-right.314c54377332615cfa5161a2d970c378.svg",
-    "main.63b22e52.css.map": "/asya-showbook/static/css/main.63b22e52.css.map",
+    "main.e2e43757.css.map": "/asya-showbook/static/css/main.e2e43757.css.map",
     "main.e909b8c3.js.map": "/asya-showbook/static/js/main.e909b8c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.63b22e52.css",
+    "static/css/main.e2e43757.css",
     "static/js/main.e909b8c3.js"
   ]
 }
